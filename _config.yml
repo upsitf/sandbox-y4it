@@ -11,7 +11,8 @@ permalink: pretty
 
 # Site variables
 switchAnnouncement: false
-switchSpeakers: false
+switchSpeakers: true
+switchSpeakersDescription: false
 switchSchedule: false
 #switchScheduleOrder: "alphabetical"
 switchRegistration: true
@@ -45,6 +46,30 @@ urlViber: "http://chats.viber.com/y4it"
 
 #urlCert: http://reg2017.y4it.org/certificates
 
+dataSpeakers:
+ - id: "sshukla"
+   pre: "Dr."
+   name: "Sandeep Shukla"
+   designation: "Head of the Department of Computer Science and Engineering"
+   designationFull: "Head of the Department, Department of Computer Science and Engineering, Poonam and Prabhu Goel Chair Professor, Coordinator of the Interdisciplinary Center for Cyber Security and Cyber Defense of Critical Infrastructures"
+   affiliation: "Indian Institute of Technology Kanpur, India"
+   special: "ACM"
+   description:
+    - "Professor Sandeep K. Shukla is an IEEE fellow, an ACM Distinguished Scientist, and served as an IEEE Computer Society Distinguished Visitor during 2008-2012, and as an ACM Distinguished Speaker during 2007-2014. He is currently the Editor-in-Chief of ACM Transactions on Embedded Systems, and associate editor for ACM transactions on Cyber Physical Systems.  In the past, he has been associate editors for IEEE Transactions on Computers, IEEE Transactions on Industrial Informatics, IEEE Design and Test, IEEE Embedded Systems Letters, and many other journals. He has guest-edited more than 15 special issues for various IEEE and ACM journals. He has written or edited 9 books, published over 200 journal and conference papers. He has been program chairs for 4 IEEE/ACM International conferences, and General Chair for 2 of these conferences. He has served on the program committee of more than 100 international conferences and workshops. He supervised 12 PhDs, and directed five post-doctoral scholars at Virginia Tech.  Sandeep's current research focus is on Cyber Security for Critical Infrastructures. He is coordinating a research center on cyber security for critical infrastructures along with his colleagues at IIT Kanpur at the moment."
+    - "He received his bachelor’s degree in Computer Science and Engineering at Jadavpur University, Kolkata in 1991, his Masters and PhD degrees in Computer Science from the State University of New York at Albany, NY, USA in 1995 and 1997 respectively. He worked as a scientist at the GTE labs on telecommunications network management, distributed object technology, and event correlation technologies between 1997 and 1999. Between 1999 and 2001, he worked at the Intel Corporation on the formal verification of the ITANIUM processor, and on system level design languages. 2001-2002, he was a research faculty at the University of California at Irvine working on embedded system design. From 2002 till 2015, he has been an assistant, associate, and full professor at Virginia Tech, USA. He co-founded the Center for Embedded Systems for Critical Applications (CESCA) in 2007, and has been a director of the center between 2010 and 2012.   In 2015, he joined the Computer Science and Engineering Department of the Indian Institute of Technology Kanpur, India.  He is currently the Poonam and Prabhu Goel Chair Professor, and Dr.Deep Singh and Daljeet Kaur Faculty Fellow at IIT Kanpur."
+    - "He received the Ramanujan Fellowship from the Science and Engineering Research Board, Government of India,  the  Presidential Early Career Award for Scientists and Engineers (PECASE) from the White House in 2004, Frederich Wilhelm Bessel Award in 2008 from the Humboldt Foundation, Germany, Virginia Tech Faculty Fellow Award, A distinguished Alumni Award from the State University of New York at Albany, A best paper award at the Asia-Pacific Design Automation Conference, GTE Laboratories Excellence Award,ASEE/ONR Faculty Fellowship in 2005, ASEE/Air Force Senior Faculty Fellowship in 2007, and an Air Force Labs Faculty Fellowship in 2008.   Sandeep also has been a visiting faculty at INRIA, France, University of Kaiserslautern in Germany."
+   image: "coll_web-speaker-sshukla.png"
+ - id: "pgioca"
+   pre: "Mr."
+   name: "Philip Gioca"
+   designation: "Country Manager"
+   affiliation: "JobStreet.com Philippines"
+   description:
+    - "Philip Gioca is the Country Manager of JobStreet.com Philippines. As the company's top executive in the Philippines, he is responsible for the overall strategy and execution for the company’s online recruitment solutions anchored on the mission of Improving Lives through Better Careers. Prior to his installation as Country Manager, he was the company's Sales Director for 5 years, where he managed and grew sales through broad organizational developments, marketing strategies, and leadership."
+    - "Prior to his years in JobStreet.com, he had been a part of the executive committee of some of the leading multi-national financial institutions in the country."
+   image: "coll_web-speaker-pgioca.png"
+ - id: "more" # this adds the "And More" panel in the Speakers section
+
 organizerDescription:
  - "The UP System Information Technology Foundation (UPSITF) Inc. is a non-government organization focused on the application of Information and Communication Technology for development. It partners with UP Information Technology Development Center in providing various services such as, but not limited to, Education Development, IT Human Capital Development, Research &amp; Development, Software Engineering, ICT Policy Development and Planning, and IT Project Management."
 
@@ -69,6 +94,26 @@ dataFAQ:
    answer: "Yes, there will be a different program for each day. Expect to learn and be inspired by different speakers and topics each day."
  - question: "I lost my certificate code, would the management still be able to replace it?"
    answer: "Unfortunately, Y4iT will not replace lost certificate codes."
+
+dataPartners:
+ - name: "Sponsors"
+   list:
+    - name: "Accenture"
+      logo: ""
+    - name: "Jellyfish Education"
+      logo: ""
+    - name: "JobStreet Philippines"
+      logo: ""
+    - name: "Piktochart"
+      logo: ""
+ - name: "Media Partners"
+   list:
+    - name: "Inquirer"
+      logo: ""
+ - name: "Organization Partners"
+   list:
+    - name: ""
+      logo: ""
 
 dataTerms:
  - name: "Refunds"

@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: #1a133e;
+  /*background-color: #1a133e;*/
 }
 
 /* START - Safeguard Styling */
@@ -128,13 +128,72 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* COUNTDOWN */
+
+#section-countdown {
+  background-color: #1a133e;
+}
+
+/* SPEAKERS */
+
+#section-speakers {
+  background-color: #29234b;
+}
+
+.img-grayscale {
+  filter: grayscale(100%);
+}
+
+.img-speaker {
+  filter: grayscale(0%);
+  -webkit-transition: 250ms ease-out;
+  -moz-transition: 250ms ease-out;
+  -o-transition: 250ms ease-out;
+  transition: 250ms ease-out;
+}
+
+.img-speaker.img-grayscale {
+  filter: grayscale(100%);
+  -webkit-transition: 250ms ease-out;
+  -moz-transition: 250ms ease-out;
+  -o-transition: 250ms ease-out;
+  transition: 250ms ease-out;
+}
+
+.panel-data {
+  height: 100px;
+  -webkit-transition: 250ms ease-out;
+  -moz-transition: 250ms ease-out;
+  -o-transition: 250ms ease-out;
+  transition: 250ms ease-out;
+}
+
+.panel-data.panel-hidden-height {
+  height: 0px;
+  -webkit-transition: 250ms ease-out;
+  -moz-transition: 250ms ease-out;
+  -o-transition: 250ms ease-out;
+  transition: 250ms ease-out;
+}
+
+
+/*  */
+
 /* DETAILS */
+
+#section-details {
+  background-color: #1a133e;
+}
 
 #img-smx+sub {
   font-style: italic;
 }
 
 /* REGISTRATION */
+
+#section-registration {
+  background-color: #1a133e;
+}
 
 #section-registration .panel-price {
   background-color: rgba(238, 238, 238, 0.07);
@@ -146,10 +205,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* FAQ */
+
+#section-faq {
+  background-color: #29234b;
+}
+
+/* TERMS */
+
+#section-terms {
+  background-color: #1a133e;
+}
+
 /* ABOUT */
 
 #section-organizer {
-  background-color: rgba(238, 238, 238, 0.07);
+  /*background-color: rgba(238, 238, 238, 0.07);*/
+  background-color: #29234b;
 }
 
 #section-organizer p {
