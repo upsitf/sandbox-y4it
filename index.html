@@ -22,16 +22,17 @@ layout: main
           </h1>
           
           <span>
-            <span>September 5-7, 2017</span>
+            <span>September 5-7, 2017</span> |
             <span>
               SMX Convention Center<br/>
               Mall of Asia Complex, Pasay City
             </span>
           </span>
 
+          {% if site.switchRegistration and site.switchRegistration == true %}
           <br/><br/>
-
           <a href="{{ site.baseurl }}{{ site.urlAppendRegister }}" target="_blank" rel="noopener noreferrer" class="btn btn-default btn-register">Register Now</a>
+          {% endif %}
 
         </div>
 
@@ -71,11 +72,13 @@ layout: main
             {% if site.switchSpeakersDescription and site.switchSpeakersDescription == true %}
             <a id="speaker-{{ eachspeaker.id }}" class="a-speaker-toggle">
             {% endif %}
-              <img src="{{ site.baseurl }}/images/speakers/{{ eachspeaker.image }}" class="img-responsive{% if site.switchSpeakersDescription and site.switchSpeakersDescription == true %} img-speaker img-grayscale{% endif %}">
-              <h2>
-                {{ eachspeaker.name }}
-                <small>{{ eachspeaker.designation }} at {{ eachspeaker.affiliation }}</small>
-              </h2>
+              <div style="min-height:340px;">
+                <img src="{{ site.baseurl }}/images/speakers/{{ eachspeaker.image }}" class="img-responsive{% if site.switchSpeakersDescription and site.switchSpeakersDescription == true %} img-speaker img-grayscale{% endif %}">
+                <h2>
+                  {{ eachspeaker.name }}
+                  <small>{{ eachspeaker.designation }} at {{ eachspeaker.affiliation }}</small>
+                </h2>
+              </div>
             {% if site.switchSpeakersDescription and site.switchSpeakersDescription == true %}
             </a>
             {% endif %}
@@ -175,9 +178,11 @@ layout: main
               <p>Gates open at 7 AM </p>
               <p>Event proper: 9 AM - 4 PM || Break: 12 NN - 1 PM </p>
 
+              {% if site.switchRegistration and site.switchRegistration == true %}
               <br/><br/>
-
               <a href="{{ site.baseurl }}{{ site.urlAppendRegister }}" target="_blank" rel="noopener noreferrer" class="btn btn-default btn-register">Register Now</a>
+              {% endif %}
+
             </div>
           </div>
         </div></div>
@@ -241,9 +246,10 @@ layout: main
             </h3>
             <span class="span-price">600</span>
 
+            {% if site.switchRegistration and site.switchRegistration == true %}
             <br/><br/>
-
             <a href="{{ site.baseurl }}{{ site.urlAppendRegister }}" target="_blank" rel="noopener noreferrer" class="btn btn-default btn-register">Register Now</a>
+            {% endif %}
 
           </div>
 
@@ -403,12 +409,14 @@ layout: main
   {% endif %}
 
   {% if site.switchPartners and site.switchPartners == true %}
-  <section id="section-partners" class="section-regular text-center">
+  <section id="section-partners" class="section-regular section-bg-light text-center">
     <div class="container-fluid">
       <div class="row row-limit">
         <div class="col-lg-12">
 
         <h1>Partners</h1>
+
+        {% include shared-partners.html %}
 
         </div>
       </div>

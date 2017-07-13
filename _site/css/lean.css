@@ -200,7 +200,8 @@ small {
   padding-bottom: 30px;
 }
 
-#section-home-content #section-countdown {
+/*#section-home-content #section-countdown*/
+#section-home-content>section:first-child {
   margin-top: -30px;
   /*padding-bottom: 30px;*/
 }

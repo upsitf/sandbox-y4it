@@ -81,6 +81,12 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 250ms ease-out;
   transition: 250ms ease-out;
 }
+
+.section-bg-light h1,
+.section-bg-light h2 {
+  color: #1a133e;
+}
+
 /* TITLE PANEL */
 
 #section-home-header h1 {

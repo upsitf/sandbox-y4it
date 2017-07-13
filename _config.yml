@@ -20,7 +20,7 @@ switchBadges: true
 switchHowToReg: false
 switchPayment: false
 switchFAQ: true
-switchPartners: false
+switchPartners: true
 switchTerms: true
 
 switchSponsor: false
@@ -68,6 +68,56 @@ dataSpeakers:
     - "Philip Gioca is the Country Manager of JobStreet.com Philippines. As the company's top executive in the Philippines, he is responsible for the overall strategy and execution for the company’s online recruitment solutions anchored on the mission of Improving Lives through Better Careers. Prior to his installation as Country Manager, he was the company's Sales Director for 5 years, where he managed and grew sales through broad organizational developments, marketing strategies, and leadership."
     - "Prior to his years in JobStreet.com, he had been a part of the executive committee of some of the leading multi-national financial institutions in the country."
    image: "coll_web-speaker-pgioca.png"
+ - id: "dhaas"
+   pre: "Mr."
+   name: "Damian Haas"
+   designation: "Regional Director, Oracle Academy"
+   affiliation: "Oracle Corporation"
+   description:
+    - "Damian is the Regional Director for Oracle Academy across Asia Pacific and Japan. The role involves the oversight of activities to support Oracle Academy’s mission to advance computer science education globally through its portfolio of learning resources and to make it accessible and engaging to students.  Oracle Academy is an entirely free and philanthropic program designed to enable higher education learners to advance proficiency in core, in-demand skills which are fundamental to modern computing."
+    - "Damian has over 20 years experience in sales, marketing and business development within the information technology industry in Australia/New Zealand and internationally."
+    - "In 2011, Damian was engaged by Oracle University as an Education Solution Consultant and was subsequently appointed the Director of Oracle University for Australasia until his appointment with Oracle Academy in 2016."
+   image: "coll_web-speaker-dhaas.png"
+ - id: "rbucao"
+   pre: "Mr."
+   name: "Rodge Bucao"
+   designation: "UX Research Coordinator"
+   affiliation: "Oracle Corporation"
+   description:
+    - "Rodge Bucao is a mixed-methods researcher with long-standing interests in the intersections between technology and human behavior. Currently a UX Research Coordinator for Oracle, Rodge oversees providing research support for various NetSuite product areas. Prior to working at Oracle, Rodge worked as a Senior UX Researcher for Trend Micro and as a research consultant for consumer insights, telecommunications, and education."
+   image: "coll_web-speaker-rbucao.png"
+ - id: "rsarmiento"
+   pre: "Dr."
+   name: "Raymond Francis Sarmiento"
+   designation: "Director"
+   affiliation: "UPM-NIH National Telehealth Center"
+   description:
+    - "Dr. Raymond Francis Sarmiento is the Director of the National Telehealth Center, National Institutes of Health (NIH), University of the Philippines Manila and was previously the Chief Research Informatics Officer (CRIO) of the Center. As CRIO, he led the design, development, and implementation of clinical and translational science strategies using applied clinical informatics methods to optimize health information systems and translate informatics research applications to become part of integrated clinical workflows found in rural health units, regional hospitals, and tertiary specialty hospitals. Dr. Sarmiento also serves as the Chief Data Protection Officer of the university. He finished his Public Health Informatics Fellowship (2014-2016) in the Division of Surveillance, Hazard Evaluations, and Field Studies at the National Institute for Occupational Safety and Health (NIOSH), U.S. CDC. Prior to joining CDC, he completed a two-year postdoctoral fellowship in clinical informatics at the National Library of Medicine, NIH, in Bethesda, Maryland, USA."
+   image: "coll_web-speaker-rsarmiento.png"
+ - id: "rpastor"
+   pre: "Mr."
+   name: "Ramon Pastor"
+   designation: "President & CEO"
+   affiliation: "Rogomi, Inc."
+   description:
+    - "Ramon graduated from the Ateneo de Manila University and worked for 6 years as an Information Technology Manager at a local manufacturing company as well as Business Development Manager at a local I.T. company before co-founding Rogomi. His love for the iOS platform began when he bought his first iPod touch in 2008. He became a self-taught iOS developer soon after. He released his first iOS app on the Apple App Store in May 2009 and, since then, has developed numerous apps and has given countless mobile development talks and basic iOS development seminars in various universities and corporate-sponsored events nationwide. In August 2013, he was chosen by Nokia as one of ten global developers to join the Nokia Imaging SDK team in Lund, Sweden to participate in the exclusive Future/Capture Hackathon."
+   image: "coll_web-speaker-rpastor.png"
+ - id: "fchua"
+   pre: "Mr."
+   name: "Fred Chua"
+   designation: "President"
+   affiliation: "My3D Concepts Corporation"
+   description:
+    - "Fred Chua, an Electronics and Communication Engineering Graduate at the University of the Philippines, is the President of My3D Concepts Corp “3D2gO” which is the 1st End-to- End 3D Scanning, Prototyping and Printing Service provider focused on the mainstream consumer and corporate markets. He’s also the Chief Executive Officer of Magellan Solutions Outsourcing, Inc., 600-seat Call Center & BPO company that was established in 2005. He established 3D2Go in October 2013, as, he wanted to offer to consumers, the capability to create and print whatever they want using 3D scanning, 3D modeling and 3D printing technologies. His vision is to democratize the 3D printing industry by offering easy and cost effective services to everyone that needs customized manufacturing, scanning and prototyping services."
+   image: "coll_web-speaker-fchua.png"
+ - id: "sharris"
+   pre: "Mr."
+   name: "Sam Harris"
+   designation: "AWS Education Program Manager | APAC"
+   affiliation: "Amazon Web Services"
+   description:
+    - "Sam Harris has been working in the Education space with Amazon Web Services for four years. In this time he has focused on driving adoption of AWS technology and cloud computing curriculum across Educators, Students and Institutions."
+   image: "coll_web-speaker-sharris.png"
  - id: "more" # this adds the "And More" panel in the Speakers section
 
 organizerDescription:
@@ -88,6 +138,8 @@ dataFAQ:
    answer: "Yes. Just bring proof of payment to claim your badges."
  - question: "I lost my badge, would the management still be able to replace it?"
    answer: "Unfortunately, Y4iT will not replace lost badge/s."
+ - question: "Can I bring food inside the venue?"
+   answer: "As per the rules of the SMX Convention Center management, bringing in of food items is NOT allowed in the venue."
  - question: "How long will the program be?"
    answer: "Gates open at 7am. The program starts at 9am and ends at 4pm."
  - question: "Will there be different programs per day?"
@@ -97,23 +149,48 @@ dataFAQ:
 
 dataPartners:
  - name: "Sponsors"
+   id: "sponsor"
    list:
-    - name: "Accenture"
-      logo: ""
+    - name: "3D2Go"
+      logo: "coll_web-partner-sponsor-3d2go.png"
+      shape: "wide"
+    - name: "Enchanted Kingdom"
+      logo: "coll_web-partner-sponsor-enchantedkingdom21.png"
+      shape: "square"
+    - name: "Healthy Family"
+      logo: "coll_web-partner-sponsor-healthyfamily.png"
+      shape: "square"
     - name: "Jellyfish Education"
-      logo: ""
-    - name: "JobStreet Philippines"
-      logo: ""
-    - name: "Piktochart"
-      logo: ""
+      logo: "coll_web-partner-sponsor-jellyfish.png"
+      shape: "square"
+    - name: "Jobstreet"
+      logo: "coll_web-partner-sponsor-jobstreet.png"
+      shape: "wide"
+    - name: "Movie Club"
+      logo: "coll_web-partner-sponsor-movieclub.png"
+      shape: "standard"
+    - name: "SPi Global"
+      logo: "coll_web-partner-sponsor-spiglobal.png"
+      shape: "wide"
+    - name: "Z.com"
+      logo: "coll_web-partner-sponsor-zcom.png"
+      shape: "wide"
  - name: "Media Partners"
+   id: "media"
    list:
-    - name: "Inquirer"
-      logo: ""
- - name: "Organization Partners"
-   list:
-    - name: ""
-      logo: ""
+    - name: "Inquirer.net"
+      logo: "coll_web-partner-media-inquirernet.png"
+      shape: "wide"
+    - name: "INQ Pop!"
+      logo: "coll_web-partner-media-inqpop.png"
+      shape: "standard"
+    - name: "Manila Bulletin"
+      logo: "coll_web-partner-media-manilabulletin.png"
+      shape: "standard"
+# - name: "Organization Partners"
+#   list:
+#    - name: ""
+#      logo: ""
 
 dataTerms:
  - name: "Refunds"
