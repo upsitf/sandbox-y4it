@@ -50,9 +50,12 @@ dataSpeakers:
  - id: "sshukla"
    pre: "Dr."
    name: "Sandeep Shukla"
-   designation: "Head of the Department of Computer Science and Engineering"
-   designationFull: "Head of the Department, Department of Computer Science and Engineering, Poonam and Prabhu Goel Chair Professor, Coordinator of the Interdisciplinary Center for Cyber Security and Cyber Defense of Critical Infrastructures"
-   affiliation: "Indian Institute of Technology Kanpur, India"
+   affiliation:
+    - designation:
+       - "Head of the Department of Computer Science and Engineering"
+       - "Poonam and Prabhu Goel Chair Professor"
+       - "Coordinator of the Interdisciplinary Center for Cyber Security and Cyber Defense of Critical Infrastructures"
+      company: "Indian Institute of Technology Kanpur, India"
    special: "ACM"
    description:
     - "Professor Sandeep K. Shukla is an IEEE fellow, an ACM Distinguished Scientist, and served as an IEEE Computer Society Distinguished Visitor during 2008-2012, and as an ACM Distinguished Speaker during 2007-2014. He is currently the Editor-in-Chief of ACM Transactions on Embedded Systems, and associate editor for ACM transactions on Cyber Physical Systems.  In the past, he has been associate editors for IEEE Transactions on Computers, IEEE Transactions on Industrial Informatics, IEEE Design and Test, IEEE Embedded Systems Letters, and many other journals. He has guest-edited more than 15 special issues for various IEEE and ACM journals. He has written or edited 9 books, published over 200 journal and conference papers. He has been program chairs for 4 IEEE/ACM International conferences, and General Chair for 2 of these conferences. He has served on the program committee of more than 100 international conferences and workshops. He supervised 12 PhDs, and directed five post-doctoral scholars at Virginia Tech.  Sandeep's current research focus is on Cyber Security for Critical Infrastructures. He is coordinating a research center on cyber security for critical infrastructures along with his colleagues at IIT Kanpur at the moment."
@@ -62,8 +65,9 @@ dataSpeakers:
  - id: "pgioca"
    pre: "Mr."
    name: "Philip Gioca"
-   designation: "Country Manager"
-   affiliation: "JobStreet.com Philippines"
+   affiliation:
+    - designation: "Country Manager"
+      company: "JobStreet.com Philippines"
    description:
     - "Philip Gioca is the Country Manager of JobStreet.com Philippines. As the company's top executive in the Philippines, he is responsible for the overall strategy and execution for the company’s online recruitment solutions anchored on the mission of Improving Lives through Better Careers. Prior to his installation as Country Manager, he was the company's Sales Director for 5 years, where he managed and grew sales through broad organizational developments, marketing strategies, and leadership."
     - "Prior to his years in JobStreet.com, he had been a part of the executive committee of some of the leading multi-national financial institutions in the country."
@@ -71,8 +75,9 @@ dataSpeakers:
  - id: "dhaas"
    pre: "Mr."
    name: "Damian Haas"
-   designation: "Regional Director, Oracle Academy"
-   affiliation: "Oracle Corporation"
+   affiliation:
+    - designation: "Regional Director, Oracle Academy"
+      company: "Oracle Corporation"
    description:
     - "Damian is the Regional Director for Oracle Academy across Asia Pacific and Japan. The role involves the oversight of activities to support Oracle Academy’s mission to advance computer science education globally through its portfolio of learning resources and to make it accessible and engaging to students.  Oracle Academy is an entirely free and philanthropic program designed to enable higher education learners to advance proficiency in core, in-demand skills which are fundamental to modern computing."
     - "Damian has over 20 years experience in sales, marketing and business development within the information technology industry in Australia/New Zealand and internationally."
@@ -81,43 +86,125 @@ dataSpeakers:
  - id: "rbucao"
    pre: "Mr."
    name: "Rodge Bucao"
-   designation: "UX Research Coordinator"
-   affiliation: "Oracle Corporation"
+   affiliation:
+    - designation: "UX Research Coordinator"
+      company: "Oracle Corporation"
    description:
     - "Rodge Bucao is a mixed-methods researcher with long-standing interests in the intersections between technology and human behavior. Currently a UX Research Coordinator for Oracle, Rodge oversees providing research support for various NetSuite product areas. Prior to working at Oracle, Rodge worked as a Senior UX Researcher for Trend Micro and as a research consultant for consumer insights, telecommunications, and education."
    image: "coll_web-speaker-rbucao.png"
  - id: "rsarmiento"
    pre: "Dr."
    name: "Raymond Francis Sarmiento"
-   designation: "Director"
-   affiliation: "UPM-NIH National Telehealth Center"
+   affiliation:
+    - designation: "Director"
+      company: "UPM-NIH National Telehealth Center"
    description:
     - "Dr. Raymond Francis Sarmiento is the Director of the National Telehealth Center, National Institutes of Health (NIH), University of the Philippines Manila and was previously the Chief Research Informatics Officer (CRIO) of the Center. As CRIO, he led the design, development, and implementation of clinical and translational science strategies using applied clinical informatics methods to optimize health information systems and translate informatics research applications to become part of integrated clinical workflows found in rural health units, regional hospitals, and tertiary specialty hospitals. Dr. Sarmiento also serves as the Chief Data Protection Officer of the university. He finished his Public Health Informatics Fellowship (2014-2016) in the Division of Surveillance, Hazard Evaluations, and Field Studies at the National Institute for Occupational Safety and Health (NIOSH), U.S. CDC. Prior to joining CDC, he completed a two-year postdoctoral fellowship in clinical informatics at the National Library of Medicine, NIH, in Bethesda, Maryland, USA."
    image: "coll_web-speaker-rsarmiento.png"
  - id: "rpastor"
    pre: "Mr."
    name: "Ramon Pastor"
-   designation: "President & CEO"
-   affiliation: "Rogomi, Inc."
+   affiliation:
+    - designation: "President & CEO"
+      company: "Rogomi, Inc."
    description:
     - "Ramon graduated from the Ateneo de Manila University and worked for 6 years as an Information Technology Manager at a local manufacturing company as well as Business Development Manager at a local I.T. company before co-founding Rogomi. His love for the iOS platform began when he bought his first iPod touch in 2008. He became a self-taught iOS developer soon after. He released his first iOS app on the Apple App Store in May 2009 and, since then, has developed numerous apps and has given countless mobile development talks and basic iOS development seminars in various universities and corporate-sponsored events nationwide. In August 2013, he was chosen by Nokia as one of ten global developers to join the Nokia Imaging SDK team in Lund, Sweden to participate in the exclusive Future/Capture Hackathon."
    image: "coll_web-speaker-rpastor.png"
  - id: "fchua"
    pre: "Mr."
    name: "Fred Chua"
-   designation: "President"
-   affiliation: "My3D Concepts Corporation"
+   affiliation:
+    - designation: "President"
+      company: "My3D Concepts Corporation"
    description:
     - "Fred Chua, an Electronics and Communication Engineering Graduate at the University of the Philippines, is the President of My3D Concepts Corp “3D2gO” which is the 1st End-to- End 3D Scanning, Prototyping and Printing Service provider focused on the mainstream consumer and corporate markets. He’s also the Chief Executive Officer of Magellan Solutions Outsourcing, Inc., 600-seat Call Center & BPO company that was established in 2005. He established 3D2Go in October 2013, as, he wanted to offer to consumers, the capability to create and print whatever they want using 3D scanning, 3D modeling and 3D printing technologies. His vision is to democratize the 3D printing industry by offering easy and cost effective services to everyone that needs customized manufacturing, scanning and prototyping services."
    image: "coll_web-speaker-fchua.png"
  - id: "sharris"
    pre: "Mr."
    name: "Sam Harris"
-   designation: "AWS Education Program Manager | APAC"
-   affiliation: "Amazon Web Services"
+   affiliation:
+    - designation: "AWS Education Program Manager | APAC"
+      company: "Amazon Web Services"
    description:
     - "Sam Harris has been working in the Education space with Amazon Web Services for four years. In this time he has focused on driving adoption of AWS technology and cloud computing curriculum across Educators, Students and Institutions."
    image: "coll_web-speaker-sharris.png"
+ - id: "mang"
+   pre: "Ms."
+   name: "Michie Ang"
+   affiliation:
+    - designation: "Director"
+      company: "Women Who Code Manila"
+   description:
+    - "Michie is an Apple’s WWDC Scholarship Recipient. She has won numerous startup competitions and hackathons in different areas of the world. She gives talks, judges, and mentors in different events. Currently, she is on a mission to get the younger generation excited in building things thru code. She also believes that everyone should be given an opportunity to learn how to code if they want too. Director of Women Who Code Manila, Organizer of SwiftPH, Co-founder of TecsoftApps, Helps schools and teachers include coding into their curriculum."
+   image: "coll_web-speaker-mang.png"
+ - id: "mmirandillasantos"
+   pre: "Ms."
+   name: "Mary Grace Mirandilla-Santos"
+   affiliation:
+    - designation: "Independent ICT Policy Researcher"
+      company:
+       - "Internet Society - Philippines Chapter"
+       - "Better Broadband Alliance"
+   description:
+    - "Mary Grace is an independent researcher on telecom and ICT, and their impact on the way people live. She has worked on ICT4D, telecoms policy and regulation, and competition-related projects for the Asian Development Bank, The Asia Foundation,​ USAID, AusAID, and the European Commission. In the past 10 years, Grace has been focusing on communications technology, looking for answers to questions like “How do Filipinos connect to the Internet?”; “Why is our internet slow?”​; “How can PH Internet do better?” She is vice president for policy of the local chapter of the Internet Society, an international non-profit that aims to promote an open Internet for all, and is a research fellow of LIRNEasia, a regional ICT policy and regulation think tank. Recently, Grace convened the Better Broadband Alliance, a coalition of citizens and stakeholders committed to supporting initiatives that bring reliable broadband to anyone, anytime, anywhere, using any technology."
+   image: "coll_web-speaker-mmirandillasantos.png"
+ - id: "gvillorente"
+   pre: "Mr."
+   name: "Gabriel Villorente"
+   affiliation:
+    - designation: "Senior ICT Associate"
+      company: "UP Information Technology Development Center"
+   description:
+    - "Gabriel is an IT Consultant, in his 10 years in the industry, he became an expert in the following fields: End-to-End Development of Mobile Applications, Enterprise Mobility Management, Software Engineering, Solutions-to-Product-to-Business Development, Digital Transformation, to name a few. During his free time, He teaches the core IT courses in the University of the Philippines Information Technology Development Center."
+   image: "coll_web-speaker-gvillorente.png"
+ - id: "dtapang"
+   pre: "Mr."
+   name: "David Tapang"
+   affiliation:
+    - designation: "Education Lead"
+      company: "Microsoft Philippines"
+   description:
+    - "David has been a part of Microsoft Corporation for over 15 years with a majority of that career in the education sector. Having held various leadership roles at Microsoft, he has a deep understanding of education and its importance in global economics. David became the Education Lead for Microsoft Philippines in June of 2013 after returning to Microsoft from a break to pursue other business interests and moving here from the U.S."
+   image: "coll_web-speaker-dtapang.png"
+ - id: "pseributra"
+   pre: "Dr."
+   name: "Prae Seributra"
+   affiliation:
+    - designation: "President"
+      company:
+       - "Starfish Country Home School Foundation"
+       - "LifePrep Foundation"
+       - "Starfish Education Foundation"
+   description:
+    - 'Dr. Nanthaporn Prae Seributra is President of Starfish Country Home School (SCHSF) Foundation, an NGO in Thailand which operates Children’s Homes, Learning Centre, scholarships and grants programmes. She has found "LifePrep Foundation" which runs education programmes for marginalised and migrant children in Thailand. She also serves as President of Starfish Education Foundation (USA), a private foundation aims to promote access to quality education. She has more than 15 experience in education as a teacher, school principal and Education Development Executive for Apple Inc. in Thailand and Singapore. Her expertise is in strategic technology integration; she has worked extensively with educators on educational leadership, curriculum development, digital pedagogy and Project Based Learning and Accessibility. Dr Prae holds a BA in Business English from Assumption University Thailand, an MA in Early Childhood Studies from Roehampton University, UK and a PhD in Education Administration from Institute of International Studies, Ramkhamhaeng University, Thailand.'
+   image: "coll_web-speaker-pseributra.png"
+ - id: "bracoma"
+   pre: "Mr."
+   name: "BA Racoma"
+   affiliation:
+    - designation: "IT Officer II"
+      company: "UP NOAH"
+   description:
+    - "BA finished his BS Applied Physics and Masters in Geology in UP Diliman. He is currently the supervisor of the UP NOAH’s IT and development team where he manages a small team of developers who focus on WebGIS technology using free and open source software. His main works include ClimateX: a four hour rapid rainfall forecast using Doppler Radars, and the UP NOAH website, an online portal that collates and displays all available hazard data in the Philippines."
+   image: "coll_web-speaker-bracoma.png"
+ - id: "gcarino"
+   pre: "Mr."
+   name: "Gino Carino"
+   affiliation:
+    - designation: "Co-Founder and CEO"
+      company: "Makerspace Manila"
+   description:
+    - "Gino is the Co-Founder and CEO of Makerspace Manila, the first educational makerspace in the country, which is owned and operated by Nymbus Strategic Inc.  Nymbus is a management consulting, sales and marketing, and distribution company that Gino founded 2 years ago and is the exclusive Philippine distributor of the multi-awarded littleBits technology."
+    - "Gino is a designer, design thinker, maker, tinkerer, innovator, patent holder, inventor, and educator. He is an alumnus of Ateneo De Manila University and IDEO U and hails from the supply chain and manufacturing sector prior to Makerspace Manila and Nymbus.  Today, he teaches both students and professionals on maker techniques and practices including but not limited to the Design Thinking mindset."
+   image: "coll_web-speaker-gcarino.png"
+ - id: "cfermin"
+   pre: "Ms."
+   name: "Chezka Monica Fermin"
+   affiliation:
+    - company: "Bataan Peninsula State University"
+   description:
+    - "Chezka is a consistent dean’s lister and a graduate of BS Information Technology major in Network and Web Application at Bataan Peninsula State University last June 2017. Their thesis was recognized as Best Paper in IT Category at the Y4IT Research Summit 2017 held at UP Diliman. She had her internship at Philippine Long Distance Telephone Company Balanga City from April to June 2016. At present she is attending training about animation and CISCO CCNA courses. She has experience in web designing using PHP, HTML5, CSS3 and Javascript. She is knowledgeable in fiber optic restoration, splicing and connecting using fusion machine. She has technical skills in different operating system such as Windows and MAC and other graphic software and Microsoft Office Applications. She has the ability to work well with others or in a team environment. She has a good communication skills both in oral and written."
+   image: "coll_web-speaker-cfermin.png"
  - id: "more" # this adds the "And More" panel in the Speakers section
 
 organizerDescription:
@@ -154,6 +241,12 @@ dataPartners:
     - name: "3D2Go"
       logo: "coll_web-partner-sponsor-3d2go.png"
       shape: "wide"
+    - name: "Accenture"
+      logo: "coll_web-partner-sponsor-accenture.png"
+      shape: "standard"
+    - name: "Appsfresh"
+      logo: "coll_web-partner-sponsor-appsfresh.png"
+      shape: "square"
     - name: "Enchanted Kingdom"
       logo: "coll_web-partner-sponsor-enchantedkingdom21.png"
       shape: "square"
@@ -166,8 +259,26 @@ dataPartners:
     - name: "Jobstreet"
       logo: "coll_web-partner-sponsor-jobstreet.png"
       shape: "wide"
+    - name: "Kalibrr"
+      logo: "coll_web-partner-sponsor-kalibrr.png"
+      shape: "standard"
+    - name: "Lazada"
+      logo: "coll_web-partner-sponsor-lazada.png"
+      shape: "standard"
+    - name: "Makerspace Manila"
+      logo: "coll_web-partner-sponsor-makerspace.png"
+      shape: "square"
     - name: "Movie Club"
       logo: "coll_web-partner-sponsor-movieclub.png"
+      shape: "standard"
+    - name: "Oracle Academy"
+      logo: "coll_web-partner-sponsor-oracle.png"
+      shape: "wide"
+    - name: "Piktochart"
+      logo: "coll_web-partner-sponsor-piktochart.png"
+      shape: "wide"
+    - name: "PLDT SME Nation"
+      logo: "coll_web-partner-sponsor-pldtsme.png"
       shape: "standard"
     - name: "SPi Global"
       logo: "coll_web-partner-sponsor-spiglobal.png"
@@ -186,6 +297,9 @@ dataPartners:
       shape: "standard"
     - name: "Manila Bulletin"
       logo: "coll_web-partner-media-manilabulletin.png"
+      shape: "standard"
+    - name: "Scout Magazine"
+      logo: "coll_web-partner-media-scout.png"
       shape: "standard"
 # - name: "Organization Partners"
 #   list:

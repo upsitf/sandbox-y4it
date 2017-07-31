@@ -76,7 +76,31 @@ layout: main
                 <img src="{{ site.baseurl }}/images/speakers/{{ eachspeaker.image }}" class="img-responsive{% if site.switchSpeakersDescription and site.switchSpeakersDescription == true %} img-speaker img-grayscale{% endif %}">
                 <h2>
                   {{ eachspeaker.name }}
-                  <small>{{ eachspeaker.designation }} at {{ eachspeaker.affiliation }}</small>
+                  
+                  <small>
+                    {% for eachaffiliation in eachspeaker.affiliation %}
+                    
+                    {% if eachaffiliation.designation %}
+                    {% for eachdesignation in eachaffiliation.designation %}
+                    {{ eachdesignation }}
+                    {% break %}
+                    {% endfor %}
+                    {% endif %}
+                    
+                    {% if eachaffiliation.company %}
+                    {% if eachaffiliation.designation %}
+                    at
+                    {% endif %}
+                    {% for eachcompany in eachaffiliation.company %}
+                    {{ eachcompany }}
+                    {% break %}
+                    {% endfor %}
+                    {% endif %}
+                    
+                    {% break %}
+                    {% endfor %}
+                  </small>
+                    
                 </h2>
               </div>
             {% if site.switchSpeakersDescription and site.switchSpeakersDescription == true %}
@@ -239,21 +263,16 @@ layout: main
 
           <h2>Rates</h2>
 
-          <div class="panel panel-default panel-price panel-price-active">
+          <div class="panel panel-default panel-price">
             <h3>
               Early Bird Rate
-              <small>until July 17, 2017 11:59 PM</small>
+              <small>until July 30, 2017 11:59 PM</small>
             </h3>
             <span class="span-price">600</span>
 
-            {% if site.switchRegistration and site.switchRegistration == true %}
-            <br/><br/>
-            <a href="{{ site.baseurl }}{{ site.urlAppendRegister }}" target="_blank" rel="noopener noreferrer" class="btn btn-default btn-register">Register Now</a>
-            {% endif %}
-
           </div>
 
-          <div class="panel panel-default panel-price">
+          <div class="panel panel-default panel-price panel-price-active">
             <h3>
               Regular Rate
               <small>July 18, 2017 to September 4, 2017 11:59 PM</small>
@@ -283,6 +302,12 @@ layout: main
               </div>
 
             </div>
+
+            {% if site.switchRegistration and site.switchRegistration == true %}
+            <br/>
+            <a href="{{ site.baseurl }}{{ site.urlAppendRegister }}" target="_blank" rel="noopener noreferrer" class="btn btn-default btn-register">Register Now</a>
+            {% endif %}
+
           </div>
 
 
