@@ -61,7 +61,7 @@ dataSpeakers:
     - "Professor Sandeep K. Shukla is an IEEE fellow, an ACM Distinguished Scientist, and served as an IEEE Computer Society Distinguished Visitor during 2008-2012, and as an ACM Distinguished Speaker during 2007-2014. He is currently the Editor-in-Chief of ACM Transactions on Embedded Systems, and associate editor for ACM transactions on Cyber Physical Systems.  In the past, he has been associate editors for IEEE Transactions on Computers, IEEE Transactions on Industrial Informatics, IEEE Design and Test, IEEE Embedded Systems Letters, and many other journals. He has guest-edited more than 15 special issues for various IEEE and ACM journals. He has written or edited 9 books, published over 200 journal and conference papers. He has been program chairs for 4 IEEE/ACM International conferences, and General Chair for 2 of these conferences. He has served on the program committee of more than 100 international conferences and workshops. He supervised 12 PhDs, and directed five post-doctoral scholars at Virginia Tech.  Sandeep's current research focus is on Cyber Security for Critical Infrastructures. He is coordinating a research center on cyber security for critical infrastructures along with his colleagues at IIT Kanpur at the moment."
     - "He received his bachelor’s degree in Computer Science and Engineering at Jadavpur University, Kolkata in 1991, his Masters and PhD degrees in Computer Science from the State University of New York at Albany, NY, USA in 1995 and 1997 respectively. He worked as a scientist at the GTE labs on telecommunications network management, distributed object technology, and event correlation technologies between 1997 and 1999. Between 1999 and 2001, he worked at the Intel Corporation on the formal verification of the ITANIUM processor, and on system level design languages. 2001-2002, he was a research faculty at the University of California at Irvine working on embedded system design. From 2002 till 2015, he has been an assistant, associate, and full professor at Virginia Tech, USA. He co-founded the Center for Embedded Systems for Critical Applications (CESCA) in 2007, and has been a director of the center between 2010 and 2012.   In 2015, he joined the Computer Science and Engineering Department of the Indian Institute of Technology Kanpur, India.  He is currently the Poonam and Prabhu Goel Chair Professor, and Dr.Deep Singh and Daljeet Kaur Faculty Fellow at IIT Kanpur."
     - "He received the Ramanujan Fellowship from the Science and Engineering Research Board, Government of India,  the  Presidential Early Career Award for Scientists and Engineers (PECASE) from the White House in 2004, Frederich Wilhelm Bessel Award in 2008 from the Humboldt Foundation, Germany, Virginia Tech Faculty Fellow Award, A distinguished Alumni Award from the State University of New York at Albany, A best paper award at the Asia-Pacific Design Automation Conference, GTE Laboratories Excellence Award,ASEE/ONR Faculty Fellowship in 2005, ASEE/Air Force Senior Faculty Fellowship in 2007, and an Air Force Labs Faculty Fellowship in 2008.   Sandeep also has been a visiting faculty at INRIA, France, University of Kaiserslautern in Germany."
-   image: "coll_web-speaker-sshukla.png"
+   image: "coll_web-speaker-sshukla.jpg"
  - id: "pgioca"
    pre: "Mr."
    name: "Philip Gioca"
@@ -71,7 +71,7 @@ dataSpeakers:
    description:
     - "Philip Gioca is the Country Manager of JobStreet.com Philippines. As the company's top executive in the Philippines, he is responsible for the overall strategy and execution for the company’s online recruitment solutions anchored on the mission of Improving Lives through Better Careers. Prior to his installation as Country Manager, he was the company's Sales Director for 5 years, where he managed and grew sales through broad organizational developments, marketing strategies, and leadership."
     - "Prior to his years in JobStreet.com, he had been a part of the executive committee of some of the leading multi-national financial institutions in the country."
-   image: "coll_web-speaker-pgioca.png"
+   image: "coll_web-speaker-pgioca.jpg"
  - id: "dhaas"
    pre: "Mr."
    name: "Damian Haas"
@@ -82,7 +82,7 @@ dataSpeakers:
     - "Damian is the Regional Director for Oracle Academy across Asia Pacific and Japan. The role involves the oversight of activities to support Oracle Academy’s mission to advance computer science education globally through its portfolio of learning resources and to make it accessible and engaging to students.  Oracle Academy is an entirely free and philanthropic program designed to enable higher education learners to advance proficiency in core, in-demand skills which are fundamental to modern computing."
     - "Damian has over 20 years experience in sales, marketing and business development within the information technology industry in Australia/New Zealand and internationally."
     - "In 2011, Damian was engaged by Oracle University as an Education Solution Consultant and was subsequently appointed the Director of Oracle University for Australasia until his appointment with Oracle Academy in 2016."
-   image: "coll_web-speaker-dhaas.png"
+   image: "coll_web-speaker-dhaas.jpg"
  - id: "rbucao"
    pre: "Mr."
    name: "Rodge Bucao"
@@ -91,7 +91,7 @@ dataSpeakers:
       company: "Oracle Corporation"
    description:
     - "Rodge Bucao is a mixed-methods researcher with long-standing interests in the intersections between technology and human behavior. Currently a UX Research Coordinator for Oracle, Rodge oversees providing research support for various NetSuite product areas. Prior to working at Oracle, Rodge worked as a Senior UX Researcher for Trend Micro and as a research consultant for consumer insights, telecommunications, and education."
-   image: "coll_web-speaker-rbucao.png"
+   image: "coll_web-speaker-rbucao.jpg"
  - id: "rsarmiento"
    pre: "Dr."
    name: "Raymond Francis Sarmiento"
@@ -100,7 +100,7 @@ dataSpeakers:
       company: "UPM-NIH National Telehealth Center"
    description:
     - "Dr. Raymond Francis Sarmiento is the Director of the National Telehealth Center, National Institutes of Health (NIH), University of the Philippines Manila and was previously the Chief Research Informatics Officer (CRIO) of the Center. As CRIO, he led the design, development, and implementation of clinical and translational science strategies using applied clinical informatics methods to optimize health information systems and translate informatics research applications to become part of integrated clinical workflows found in rural health units, regional hospitals, and tertiary specialty hospitals. Dr. Sarmiento also serves as the Chief Data Protection Officer of the university. He finished his Public Health Informatics Fellowship (2014-2016) in the Division of Surveillance, Hazard Evaluations, and Field Studies at the National Institute for Occupational Safety and Health (NIOSH), U.S. CDC. Prior to joining CDC, he completed a two-year postdoctoral fellowship in clinical informatics at the National Library of Medicine, NIH, in Bethesda, Maryland, USA."
-   image: "coll_web-speaker-rsarmiento.png"
+   image: "coll_web-speaker-rsarmiento.jpg"
  - id: "rpastor"
    pre: "Mr."
    name: "Ramon Pastor"
@@ -109,7 +109,7 @@ dataSpeakers:
       company: "Rogomi, Inc."
    description:
     - "Ramon graduated from the Ateneo de Manila University and worked for 6 years as an Information Technology Manager at a local manufacturing company as well as Business Development Manager at a local I.T. company before co-founding Rogomi. His love for the iOS platform began when he bought his first iPod touch in 2008. He became a self-taught iOS developer soon after. He released his first iOS app on the Apple App Store in May 2009 and, since then, has developed numerous apps and has given countless mobile development talks and basic iOS development seminars in various universities and corporate-sponsored events nationwide. In August 2013, he was chosen by Nokia as one of ten global developers to join the Nokia Imaging SDK team in Lund, Sweden to participate in the exclusive Future/Capture Hackathon."
-   image: "coll_web-speaker-rpastor.png"
+   image: "coll_web-speaker-rpastor.jpg"
  - id: "fchua"
    pre: "Mr."
    name: "Fred Chua"
@@ -118,7 +118,7 @@ dataSpeakers:
       company: "My3D Concepts Corporation"
    description:
     - "Fred Chua, an Electronics and Communication Engineering Graduate at the University of the Philippines, is the President of My3D Concepts Corp “3D2gO” which is the 1st End-to- End 3D Scanning, Prototyping and Printing Service provider focused on the mainstream consumer and corporate markets. He’s also the Chief Executive Officer of Magellan Solutions Outsourcing, Inc., 600-seat Call Center & BPO company that was established in 2005. He established 3D2Go in October 2013, as, he wanted to offer to consumers, the capability to create and print whatever they want using 3D scanning, 3D modeling and 3D printing technologies. His vision is to democratize the 3D printing industry by offering easy and cost effective services to everyone that needs customized manufacturing, scanning and prototyping services."
-   image: "coll_web-speaker-fchua.png"
+   image: "coll_web-speaker-fchua.jpg"
  - id: "sharris"
    pre: "Mr."
    name: "Sam Harris"
@@ -127,7 +127,7 @@ dataSpeakers:
       company: "Amazon Web Services"
    description:
     - "Sam Harris has been working in the Education space with Amazon Web Services for four years. In this time he has focused on driving adoption of AWS technology and cloud computing curriculum across Educators, Students and Institutions."
-   image: "coll_web-speaker-sharris.png"
+   image: "coll_web-speaker-sharris.jpg"
  - id: "mang"
    pre: "Ms."
    name: "Michie Ang"
@@ -136,7 +136,7 @@ dataSpeakers:
       company: "Women Who Code Manila"
    description:
     - "Michie is an Apple’s WWDC Scholarship Recipient. She has won numerous startup competitions and hackathons in different areas of the world. She gives talks, judges, and mentors in different events. Currently, she is on a mission to get the younger generation excited in building things thru code. She also believes that everyone should be given an opportunity to learn how to code if they want too. Director of Women Who Code Manila, Organizer of SwiftPH, Co-founder of TecsoftApps, Helps schools and teachers include coding into their curriculum."
-   image: "coll_web-speaker-mang.png"
+   image: "coll_web-speaker-mang.jpg"
  - id: "mmirandillasantos"
    pre: "Ms."
    name: "Mary Grace Mirandilla-Santos"
@@ -147,7 +147,7 @@ dataSpeakers:
        - "Better Broadband Alliance"
    description:
     - "Mary Grace is an independent researcher on telecom and ICT, and their impact on the way people live. She has worked on ICT4D, telecoms policy and regulation, and competition-related projects for the Asian Development Bank, The Asia Foundation,​ USAID, AusAID, and the European Commission. In the past 10 years, Grace has been focusing on communications technology, looking for answers to questions like “How do Filipinos connect to the Internet?”; “Why is our internet slow?”​; “How can PH Internet do better?” She is vice president for policy of the local chapter of the Internet Society, an international non-profit that aims to promote an open Internet for all, and is a research fellow of LIRNEasia, a regional ICT policy and regulation think tank. Recently, Grace convened the Better Broadband Alliance, a coalition of citizens and stakeholders committed to supporting initiatives that bring reliable broadband to anyone, anytime, anywhere, using any technology."
-   image: "coll_web-speaker-mmirandillasantos.png"
+   image: "coll_web-speaker-mmirandillasantos.jpg"
  - id: "gvillorente"
    pre: "Mr."
    name: "Gabriel Villorente"
@@ -156,7 +156,7 @@ dataSpeakers:
       company: "UP Information Technology Development Center"
    description:
     - "Gabriel is an IT Consultant, in his 10 years in the industry, he became an expert in the following fields: End-to-End Development of Mobile Applications, Enterprise Mobility Management, Software Engineering, Solutions-to-Product-to-Business Development, Digital Transformation, to name a few. During his free time, He teaches the core IT courses in the University of the Philippines Information Technology Development Center."
-   image: "coll_web-speaker-gvillorente.png"
+   image: "coll_web-speaker-gvillorente.jpg"
  - id: "dtapang"
    pre: "Mr."
    name: "David Tapang"
@@ -165,7 +165,7 @@ dataSpeakers:
       company: "Microsoft Philippines"
    description:
     - "David has been a part of Microsoft Corporation for over 15 years with a majority of that career in the education sector. Having held various leadership roles at Microsoft, he has a deep understanding of education and its importance in global economics. David became the Education Lead for Microsoft Philippines in June of 2013 after returning to Microsoft from a break to pursue other business interests and moving here from the U.S."
-   image: "coll_web-speaker-dtapang.png"
+   image: "coll_web-speaker-dtapang.jpg"
  - id: "pseributra"
    pre: "Dr."
    name: "Prae Seributra"
@@ -177,7 +177,7 @@ dataSpeakers:
        - "Starfish Education Foundation"
    description:
     - 'Dr. Nanthaporn Prae Seributra is President of Starfish Country Home School (SCHSF) Foundation, an NGO in Thailand which operates Children’s Homes, Learning Centre, scholarships and grants programmes. She has found "LifePrep Foundation" which runs education programmes for marginalised and migrant children in Thailand. She also serves as President of Starfish Education Foundation (USA), a private foundation aims to promote access to quality education. She has more than 15 experience in education as a teacher, school principal and Education Development Executive for Apple Inc. in Thailand and Singapore. Her expertise is in strategic technology integration; she has worked extensively with educators on educational leadership, curriculum development, digital pedagogy and Project Based Learning and Accessibility. Dr Prae holds a BA in Business English from Assumption University Thailand, an MA in Early Childhood Studies from Roehampton University, UK and a PhD in Education Administration from Institute of International Studies, Ramkhamhaeng University, Thailand.'
-   image: "coll_web-speaker-pseributra.png"
+   image: "coll_web-speaker-pseributra.jpg"
  - id: "bracoma"
    pre: "Mr."
    name: "BA Racoma"
@@ -186,7 +186,7 @@ dataSpeakers:
       company: "UP NOAH"
    description:
     - "BA finished his BS Applied Physics and Masters in Geology in UP Diliman. He is currently the supervisor of the UP NOAH’s IT and development team where he manages a small team of developers who focus on WebGIS technology using free and open source software. His main works include ClimateX: a four hour rapid rainfall forecast using Doppler Radars, and the UP NOAH website, an online portal that collates and displays all available hazard data in the Philippines."
-   image: "coll_web-speaker-bracoma.png"
+   image: "coll_web-speaker-bracoma.jpg"
  - id: "gcarino"
    pre: "Mr."
    name: "Gino Carino"
@@ -196,7 +196,7 @@ dataSpeakers:
    description:
     - "Gino is the Co-Founder and CEO of Makerspace Manila, the first educational makerspace in the country, which is owned and operated by Nymbus Strategic Inc.  Nymbus is a management consulting, sales and marketing, and distribution company that Gino founded 2 years ago and is the exclusive Philippine distributor of the multi-awarded littleBits technology."
     - "Gino is a designer, design thinker, maker, tinkerer, innovator, patent holder, inventor, and educator. He is an alumnus of Ateneo De Manila University and IDEO U and hails from the supply chain and manufacturing sector prior to Makerspace Manila and Nymbus.  Today, he teaches both students and professionals on maker techniques and practices including but not limited to the Design Thinking mindset."
-   image: "coll_web-speaker-gcarino.png"
+   image: "coll_web-speaker-gcarino.jpg"
  - id: "cfermin"
    pre: "Ms."
    name: "Chezka Monica Fermin"
@@ -204,7 +204,16 @@ dataSpeakers:
     - company: "Bataan Peninsula State University"
    description:
     - "Chezka is a consistent dean’s lister and a graduate of BS Information Technology major in Network and Web Application at Bataan Peninsula State University last June 2017. Their thesis was recognized as Best Paper in IT Category at the Y4IT Research Summit 2017 held at UP Diliman. She had her internship at Philippine Long Distance Telephone Company Balanga City from April to June 2016. At present she is attending training about animation and CISCO CCNA courses. She has experience in web designing using PHP, HTML5, CSS3 and Javascript. She is knowledgeable in fiber optic restoration, splicing and connecting using fusion machine. She has technical skills in different operating system such as Windows and MAC and other graphic software and Microsoft Office Applications. She has the ability to work well with others or in a team environment. She has a good communication skills both in oral and written."
-   image: "coll_web-speaker-cfermin.png"
+   image: "coll_web-speaker-cfermin.jpg"
+ - id: "mbendiola"
+   pre: "Ms."
+   name: "Marie Jude Bendiola"
+   affiliation:
+    - designation: "Communication Researcher"
+      company: "Philipps Universität Marburg"
+   description:
+    - "Marie Jude Bendiola is a Filipino who just finished her Master’s degree in North American Studies, specializing in Media Studies, in Philipps-Universität Marburg in Germany last Jan- uary 2017. Back in April 2009, she got her BA Journalism degree from the University of the Philippines Diliman. She also worked as a journalist at the News and Current Affairs Depart- ment of ABS-CBN Broadcasting Corporation. Then, she shared her expertise as a public relations executive at the Interactive and Digital Media Lab in the National University of Singapore. Currently, she is a Ph.D. candidate in the Department of English and American Studies in Philipps- Universität Marburg. Her research interests include media and cultural studies, specifically social media and American popular culture. At her free time, she pursues her passion for the arts as a freelance host, model, and actress in Asia and Europe."
+   image: "coll_web-speaker-mbendiola.jpg"
  - id: "more" # this adds the "And More" panel in the Speakers section
 
 organizerDescription:
@@ -289,6 +298,12 @@ dataPartners:
  - name: "Media Partners"
    id: "media"
    list:
+    - name: "BusinessWorld"
+      logo: "coll_web-partner-media-bworld.png"
+      shape: "standard"
+    - name: "BusinessWorld SparkUp"
+      logo: "coll_web-partner-media-bworldsparkup.png"
+      shape: "standard"
     - name: "Inquirer.net"
       logo: "coll_web-partner-media-inquirernet.png"
       shape: "wide"
