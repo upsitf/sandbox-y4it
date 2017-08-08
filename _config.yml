@@ -90,7 +90,7 @@ dataSpeakers:
    name: "Rodge Bucao"
    affiliation:
     - designation: "UX Research Coordinator"
-      company: "Oracle Corporation"
+      company: "Oracle NetSuite"
    description:
     - "Rodge Bucao is a mixed-methods researcher with long-standing interests in the intersections between technology and human behavior. Currently a UX Research Coordinator for Oracle, Rodge oversees providing research support for various NetSuite product areas. Prior to working at Oracle, Rodge worked as a Senior UX Researcher for Trend Micro and as a research consultant for consumer insights, telecommunications, and education."
    image: "coll_web-speaker-rbucao.jpg"
@@ -180,6 +180,33 @@ dataSpeakers:
    description:
     - 'Dr. Nanthaporn Prae Seributra is President of Starfish Country Home School (SCHSF) Foundation, an NGO in Thailand which operates Children’s Homes, Learning Centre, scholarships and grants programmes. She has found "LifePrep Foundation" which runs education programmes for marginalised and migrant children in Thailand. She also serves as President of Starfish Education Foundation (USA), a private foundation aims to promote access to quality education. She has more than 15 experience in education as a teacher, school principal and Education Development Executive for Apple Inc. in Thailand and Singapore. Her expertise is in strategic technology integration; she has worked extensively with educators on educational leadership, curriculum development, digital pedagogy and Project Based Learning and Accessibility. Dr Prae holds a BA in Business English from Assumption University Thailand, an MA in Early Childhood Studies from Roehampton University, UK and a PhD in Education Administration from Institute of International Studies, Ramkhamhaeng University, Thailand.'
    image: "coll_web-speaker-pseributra.jpg"
+ - id: "jpencil"
+   pre: "Mr."
+   name: "Joseph Pencil"
+   affiliation:
+    - designation: "Vice President of Engineering"
+      company: "Kalibrr"
+   description:
+    - "Joseph is a seasoned IT/SW professional and visionary leader with a history of success in planning, managing, and implementing innovative solutions to address technical and business challenges. He was the Head of the Research and Development Strategy for Samsung in the Philippines. Currently, he is the Vice President of Engineering for Kalibrr."
+   image: "coll_web-speaker-jpencil.jpg"
+ - id: "jmagno"
+   pre: "Ms."
+   name: "Joan Magno"
+   affiliation:
+    - designation: "Senior Product Manager"
+      company: "Kalibrr"
+   description:
+    - "Joan is the Senior Product Manager at Kalibrr -- the only Y-combinator funded startup in the Philippines -- leading the product design and development teams. She spearheaded the development of the Kalibrr web and mobile platforms, which grew from 0 users to more than half a million jobseekers today. It's now used by hundreds of top employers in the Philippines and Indonesia. Joan graduated summa cum laude from Ateneo in 2014 and was a former intern at P&G. She has won awards from numerous hackathons and international contests, notably 1st place in the Trend Micro big data contest beating 500 teams in Asia such as Tokyo University and Beijing University. A former student leader and scholar, Joan continues her passion for technology by developing games in her spare time with a game studio and by organizing tech events in the community such as TechClash."
+   image: "coll_web-speaker-jmagno.jpg"
+ - id: "adelacruz"
+   pre: "Mr."
+   name: "Albert Dela Cruz"
+   affiliation:
+    - designation: "Managing Director"
+      company: "RIGELTECH Corporation"
+   description:
+    - "Abet accumulated over two decades working in sales, marketing, technical and operational roles in various organizations such as Bay Networks and Microsoft in the Philippines. He founded and nurtured several successful start-ups; in the areas of Systems Integration, Mobile Application Development, and Information Security, holds a degree in Electronics and Communications Engineering from the University of the East and certifications in Data Communications and Information Security. Alumni of the US, State Department’s International Leadership Program on eCommerce and the World Economy and Japan’s Association for Overseas Training and Support. Private Sector Chair of the Information Technology and eCommerce Council which provided the first drafts and filing of the Anti-Cybercrime Act, the Data Privacy Act. Contributor to the eCommerce Act of the Philippines, the DTI-BPS National Regulation for Certification Authorities, National Regulation for Information Security Management Systems, Founder and First President of the Philippine Computer Emergency Response Team. Member of the Supreme Court Subcommittee on eCommerce and Rules of Court and Advisory Council Member of the Philippine National Police Anti-Cybercrime Group."
+   image: "coll_web-speaker-adelacruz.jpg"
  - id: "bracoma"
    pre: "Mr."
    name: "BA Racoma"
@@ -306,6 +333,9 @@ dataPartners:
     - name: "BusinessWorld SparkUp"
       logo: "coll_web-partner-media-bworldsparkup.png"
       shape: "standard"
+    - name: "Gadgets Magazine"
+      logo: "coll_web-partner-media-gadgets.png"
+      shape: "standard"
     - name: "Inquirer.net"
       logo: "coll_web-partner-media-inquirernet.png"
       shape: "wide"
@@ -317,6 +347,9 @@ dataPartners:
       shape: "standard"
     - name: "Scout Magazine"
       logo: "coll_web-partner-media-scout.png"
+      shape: "standard"
+    - name: "Speed Magazine"
+      logo: "coll_web-partner-media-speed.png"
       shape: "standard"
 # - name: "Organization Partners"
 #   list:
