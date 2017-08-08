@@ -5,6 +5,8 @@ title: Y4iT
 baseurl: http://toffmendoza.me/sandbox-y4it
 #baseurl: https://y4it.org/
 
+baseurlDisplay: "y4it.org"
+
 # Build settings
 markdown: kramdown
 permalink: pretty
@@ -38,7 +40,7 @@ urlYouTube: "https://www.youtube.com/user/iloveY4iT"
 urlSnapchat: "https://www.snapchat.com/add/y4it"
 urlViber: "http://chats.viber.com/y4it"
 
-#urlReg: http://reg2016.y4it.org
+urlY4iTPro: "https://pro.y4it.org"
 
 #urlAppendPackage: "/sponsorship-package.pdf"
 #urlAppendDeck: "/sponsorship-deck.pdf"
