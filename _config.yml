@@ -216,6 +216,24 @@ dataSpeakers:
    description:
     - "BA finished his BS Applied Physics and Masters in Geology in UP Diliman. He is currently the supervisor of the UP NOAH’s IT and development team where he manages a small team of developers who focus on WebGIS technology using free and open source software. His main works include ClimateX: a four hour rapid rainfall forecast using Doppler Radars, and the UP NOAH website, an online portal that collates and displays all available hazard data in the Philippines."
    image: "coll_web-speaker-bracoma.jpg"
+ - id: "rliboro"
+   pre: "Comm."
+   name: "Raymund Liboro"
+   affiliation:
+    - designation: "Commissioner and Chairman"
+      company: "National Privacy Commission"
+   description:
+    - "Having been appointed as the country’s first Privacy Commissioner in March 2016, he fast tracked data protection policy development in the country with the issuance of the Data Privacy Act’s Implementing Rules as well as significant policy circulars all within the first year of NPC’s establishment—effectively working for the country’s data privacy and protection rules to be at par with global data protection regulations. Within his first year, he spearheaded the country’s participation in two of the biggest data privacy organizations in the world: the International Conference of Data Protection and Privacy Commissioners or ICDPPC and the Asia Pacific Privacy Authorities Forum-earning the country full-membership status in these prestigious organizations in the Philippines’ very first attempt for membership. Prior to the NPC, he was the Director of the DOST’s Science and Technology Information Institute and Assistant Secretary of the Department of Science and Technology, where he initiated the creation of ICT-based risk-management tools for climate change adaption and disaster risk reduction. Notable projects under this initiative is the risk management tool called the Nationwide Operational Assessment of Hazards or Project NOAH, which has been cited as one of the most advanced e-governance tool in disaster prevention by the United Nations Program Office on Governance (UNPOG). He is an alumnus of the University of the Philippines - School of Economics. Happily married, and a father to three lovely children, enjoying the private-side of life with his family is for him his best ongoing project, so much so that he was awarded the “Ulirang Ama” award in 2014. On top of ensuring compliance with the Data Privacy Act, his personal advocacy is to help build a culture of privacy in the country and establish the Filipinos as responsible digital citizens of the world."
+   image: "coll_web-speaker-rliboro.jpg"
+ - id: "ncordoves"
+   pre: "Ms."
+   name: "Nicole Cordoves"
+   affiliation:
+    - designation: "Writer, Online Editor, Host, and Ambassadress"
+      company: "Manila Bulletin Publishing Corporation"
+   description:
+    - "Nicole Cordoves was crowned as the Binibining Pilipinas Grand International 2016."
+   image: "coll_web-speaker-ncordoves.jpg"
  - id: "gcarino"
    pre: "Mr."
    name: "Gino Carino"
@@ -234,6 +252,15 @@ dataSpeakers:
    description:
     - "Chezka is a consistent dean’s lister and a graduate of BS Information Technology major in Network and Web Application at Bataan Peninsula State University last June 2017. Their thesis was recognized as Best Paper in IT Category at the Y4IT Research Summit 2017 held at UP Diliman. She had her internship at Philippine Long Distance Telephone Company Balanga City from April to June 2016. At present she is attending training about animation and CISCO CCNA courses. She has experience in web designing using PHP, HTML5, CSS3 and Javascript. She is knowledgeable in fiber optic restoration, splicing and connecting using fusion machine. She has technical skills in different operating system such as Windows and MAC and other graphic software and Microsoft Office Applications. She has the ability to work well with others or in a team environment. She has a good communication skills both in oral and written."
    image: "coll_web-speaker-cfermin.jpg"
+ - id: "jmalinao"
+   pre: "Dr."
+   name: "Jasmine Malinao"
+   affiliation:
+    - designation: "Project Manager"
+      company: "UP Information Technology Development Center"
+   description:
+    - "Jasmine is engaged in doing both basic and applied research in modelling and model verification, complexity theory, graph theory, and algorithms for requirements traceability for software engineering."
+   image: "coll_web-speaker-jmalinao.jpg"
  - id: "mbendiola"
    pre: "Ms."
    name: "Marie Jude Bendiola"
@@ -243,7 +270,76 @@ dataSpeakers:
    description:
     - "Marie Jude Bendiola is a Filipino who just finished her Master’s degree in North American Studies, specializing in Media Studies, in Philipps-Universität Marburg in Germany last Jan- uary 2017. Back in April 2009, she got her BA Journalism degree from the University of the Philippines Diliman. She also worked as a journalist at the News and Current Affairs Depart- ment of ABS-CBN Broadcasting Corporation. Then, she shared her expertise as a public relations executive at the Interactive and Digital Media Lab in the National University of Singapore. Currently, she is a Ph.D. candidate in the Department of English and American Studies in Philipps- Universität Marburg. Her research interests include media and cultural studies, specifically social media and American popular culture. At her free time, she pursues her passion for the arts as a freelance host, model, and actress in Asia and Europe."
    image: "coll_web-speaker-mbendiola.jpg"
+ - id: "sphornthabthong"
+   pre: "Mr."
+   name: "Surawut Phornthabthong"
+   affiliation:
+    - designation: "Senior Solution Architect"
+      company: "Amazon Web Services"
+   description:
+    - "He is a Solutions Architect with extensive experience engaging and enabling partners in the development of technology-based solutions in large-scale projects around ASEAN regions. He is experienced in solution integration with the ability to develop business cases through understanding the customer business and technical requirements."
+   image: "coll_web-speaker-sphornthabthong.jpg"
  - id: "more" # this adds the "And More" panel in the Speakers section
+
+dataSchedules:
+ - morning:
+    - id: "gcarino"
+      topic: "A Design Thinking Mindset for IT Professionals"
+    - id: "sphornthabthong"
+      topic: "Amazon AI"
+    - id: "sshukla"
+      topic: "Cyber Security — Evolving Threats and Emerging Opportunities - A Call to Manpower Development"
+    - id: "rsarmiento"
+      topic: "Data Privacy in the Health Sector in the Philippines"
+    - id: "ncordoves"
+      topic: "Efforts of Manila Bulletin in its Digital Platform"
+    - id: "jmalinao"
+      topic: "Insights to the Challenges of the Design, Implementation, and Management of Multidimensional Workflows"
+    - id: "mmirandillasantos"
+      topic: "Reliable and Affordable PH Internet - Are We Getting There?"
+    - id: "rpastor"
+      topic: "Trends in Apple Development"
+#   afternoon:
+#    - id: ""
+#      topic: ""
+ - morning:
+    - id: "sharris"
+      topic: "Amazon Web Services | Cloud Skills for Students"
+    - id: "rbucao"
+      topic: "Foundations of User Experience Research: Why Developers/Software Engineers Should Bother Knowing Their Users"
+    - id: "dtapang"
+      topic: "Innovating with AI"
+    - id: "gvillorente"
+      topic: "Integration and Implementation of an Enterprise-level Application: Philippine State Universities’ readiness in adopting an Enterprise Architecture and an IT Governance Framework"
+    - id: "jpencil"
+      topic: "Microservice Application Development - Cloud Deployment Strategies"
+    - id: "pgioca"
+      topic: "Tech Talk"
+    - id: "dhaas"
+      topic: "The Fourth Industrial Revolution - Challenges and Opportunities"
+#   afternoon:
+#    - id: ""
+#      topic: ""
+ - morning:
+    - id: "cfermin"
+      topic: "ARPhanum: Interactive Alphanumeric Learning Educational Application using Augmented Reality and Voice Recognition"
+    - id: "pseributra"
+      topic: "Developing Innovation Skills through Project Based Learning"
+    - id: "fchua"
+      topic: "Opening the Mind to Infinite Possibilities: A 3D Printing Revolution"
+    - id: "jmagno"
+      topic: "Snappy, Steady, Simple: Crafting the Mobile User Experience"
+    - id: "adelacruz"
+      topic: "State of the Hack. A Review of the State of Information Security and Privacy in the Philippines"
+    - id: "mang"
+      topic: "Swift Playgrounds and Its Possibilities"
+    - id: "mbendiola"
+      topic: "Understanding Digital Immigration in the Time of the Internet: A U.S.-American Global Perspective"
+    - id: "bracoma"
+      topic: "UP NOAH: Apps and Available Data"
+#   afternoon:
+#    - id: ""
+#      topic: ""
 
 organizerDescription:
  - "The UP System Information Technology Foundation (UPSITF) Inc. is a non-government organization focused on the application of Information and Communication Technology for development. It partners with UP Information Technology Development Center in providing various services such as, but not limited to, Education Development, IT Human Capital Development, Research &amp; Development, Software Engineering, ICT Policy Development and Planning, and IT Project Management."
@@ -321,6 +417,9 @@ dataPartners:
     - name: "SPi Global"
       logo: "coll_web-partner-sponsor-spiglobal.png"
       shape: "wide"
+    - name: "Teradoor"
+      logo: "coll_web-partner-sponsor-teradoor.png"
+      shape: "standard"
     - name: "Z.com"
       logo: "coll_web-partner-sponsor-zcom.png"
       shape: "wide"
@@ -344,6 +443,9 @@ dataPartners:
       shape: "standard"
     - name: "Manila Bulletin"
       logo: "coll_web-partner-media-manilabulletin.png"
+      shape: "standard"
+    - name: "Mellow 94.7"
+      logo: "coll_web-partner-media-mellow.png"
       shape: "standard"
     - name: "Scout Magazine"
       logo: "coll_web-partner-media-scout.png"
