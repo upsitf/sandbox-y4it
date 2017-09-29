@@ -13,6 +13,7 @@ permalink: pretty
 
 # Site variables
 switchAnnouncement: false
+switchCountdown: false
 switchSpeakers: true
 switchSpeakersDescription: false
 switchSchedule: false
@@ -27,10 +28,16 @@ switchTerms: true
 
 switchSponsor: false
 
+switchCertificates: true
+
+statusRegistration: "done" # "soon" "open" "closed" or "done"
+statusRate: "none" # "earlybird" "regular" or "walkin"
+
 urlAppendCHEDEndorsement: "/files/Y4iT2017CHEDEndorsement.pdf"
 urlAppendRegister: "/register"
 urlAppendSponsorship: "/sponsor"
 urlAppendSponsorshipPackages: "/files/Y4iT2017SponsorshipPackages.pdf"
+urlAppendCertificates: "/coa2017"
 
 urlOfficial: "https://y4it.org/"
 urlFacebook: "https://www.facebook.com/ilove.Y4iT/"

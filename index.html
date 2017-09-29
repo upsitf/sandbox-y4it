@@ -1,5 +1,7 @@
 ---
 layout: main
+animate: false
+slick: false
 ---
 
 
@@ -29,10 +31,18 @@ layout: main
             </span>
           </span>
 
-          {% if site.switchRegistration and site.switchRegistration == true %}
+          {% if site.statusRegistration == "open" %}
+          
           <br/><br/>
           <a href="{{ site.baseurl }}{{ site.urlAppendRegister }}" target="_blank" rel="noopener noreferrer" class="btn btn-default btn-register">Register Now</a>
           <br/><br/>
+
+          {% elsif site.switchCertificates and site.switchCertificates == true %}
+          
+          <br/><br/>
+          <a href="{{ site.baseurl }}{{ site.urlAppendCertificates }}" target="_blank" rel="noopener noreferrer" class="btn btn-default btn-register">Claim Certificates</a>
+          <br/><br/>
+          
           {% endif %}
 
           <a href="{{ site.urlY4iTPro }}" target="_blank" rel="noopener noreferrer" class="btn btn-default btn-register" style="font-size: 0.8em"><!--span style="text-transform:initial"-->Y4iT<!--/span--> Professionals Event</a>
@@ -46,6 +56,7 @@ layout: main
 
 <section id="section-home-content">
 
+  {% if site.switchCountdown and site.switchCountdown == true %}
   <section id="section-countdown" class="section-regular section-regular ">
     <div class="container-fluid">
       <div class="row row-limit">
@@ -56,6 +67,7 @@ layout: main
       </div>
     </div>
   </section>
+  {% endif %}
 
   {% if site.switchSpeakers and site.switchSpeakers == true %}
 
@@ -205,7 +217,7 @@ layout: main
               <p>Gates open at 7 AM </p>
               <p>Event proper: 9 AM - 4 PM || Break: 12 NN - 1 PM </p>
 
-              {% if site.switchRegistration and site.switchRegistration == true %}
+              {% if site.statusRegistration == "open" %}
               <br/><br/>
               <a href="{{ site.baseurl }}{{ site.urlAppendRegister }}" target="_blank" rel="noopener noreferrer" class="btn btn-default btn-register">Register Now</a>
               {% endif %}
@@ -248,12 +260,14 @@ layout: main
     </div>
   </section>
 
+
+  {% if site.switchRegistration and site.switchRegistration == true %}
   <section id="section-registration" class="section-regular section-bg-dark">
     <div class="container-fluid">
       <div class="row row-limit">
         <div class="col-lg-12">
 
-        {% if site.switchRegistration and site.switchRegistration == true %}
+        {% if site.statusRegistration == "open" or site.statusRegistration == "done" %}
 
         {% if site.switchBadges and site.switchBadges == true %}
 
@@ -266,19 +280,26 @@ layout: main
 
           <h2>Rates</h2>
 
-          <div class="panel panel-default panel-price">
+          <div class="panel panel-default panel-price{% if site.statusRegistration == "earlybird" %} panel-price-active{% endif %}">
             <h3>
               Early Bird Rate
               <small>until July 30, 2017 11:59 PM</small>
             </h3>
             <span class="span-price">600</span>
 
+            {% if site.switchRegistration and site.switchRegistration == true %}
+            {% if site.statusRegistration == "earlybird" %}
+            <br/>
+            <a href="{{ site.baseurl }}{{ site.urlAppendRegister }}" target="_blank" rel="noopener noreferrer" class="btn btn-default btn-register">Register Now</a>
+            {% endif %}
+            {% endif %}
+
           </div>
 
-          <div class="panel panel-default panel-price panel-price-active">
+          <div class="panel panel-default panel-price{% if site.statusRegistration == "regular" %} panel-price-active{% endif %}">
             <h3>
               Regular Rate
-              <small>July 18, 2017 to September 4, 2017 11:59 PM</small>
+              <small>July 31, 2017 to September 4, 2017 11:59 PM</small>
             </h3>
 
             <div class="row">
@@ -306,15 +327,18 @@ layout: main
 
             </div>
 
+
             {% if site.switchRegistration and site.switchRegistration == true %}
+            {% if site.statusRegistration == "regular" %}
             <br/>
             <a href="{{ site.baseurl }}{{ site.urlAppendRegister }}" target="_blank" rel="noopener noreferrer" class="btn btn-default btn-register">Register Now</a>
+            {% endif %}
             {% endif %}
 
           </div>
 
 
-          <div class="panel panel-default panel-price">
+          <div class="panel panel-default panel-price{% if site.statusRegistration == "walkin" %} panel-price-active{% endif %}">
             <h3>
               Walk-In Rate
               <small>September 5 to 7, 2017</small>
@@ -395,7 +419,7 @@ layout: main
 
         {% endif %}
 
-        {% else %}
+        {% elsif site.statusRegistration == "soon" %}
 
         <h1>Registration</h1>
 
@@ -403,12 +427,23 @@ layout: main
 
         <p>Please standby for our upcoming announcements.</p>
 
+        {% elsif site.statusRegistration == "closed" %}
+
+        <h1>Registration</h1>
+
+        <span>Closed</span>
+
+        <p>Y4iT is here! Please proceed to the venue.</p>
+
+        {% else %}
+
         {% endif %}
 
         </div>
       </div>
     </div>
   </section>
+  {% endif %}
 
   {% if site.switchFAQ and site.switchFAQ == true %}
   <section id="section-faq" class="section-regular section-bg-dark">
